@@ -59,7 +59,7 @@ class Router
   def run(req, res)
     matching_route = match(req)
     if matching_route.present?
-      route.run(req, res)
+      matching_route.run(req, res)
     else
       res.status = 404
       res.write("Matching route not found for #{req.path}")
