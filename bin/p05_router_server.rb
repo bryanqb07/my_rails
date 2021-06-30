@@ -1,6 +1,6 @@
 require 'rack'
-require_relative '../lib/controller_base'
-require_relative '../lib/router'
+require_relative '../controllers/controller_base'
+require_relative '../controllers/router'
 
 
 $cats = [

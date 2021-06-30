@@ -1,7 +1,7 @@
 require 'rack'
-require_relative '../lib/controller_base'
-require_relative '../lib/router'
-require_relative '../lib/show_exceptions'
+require_relative '../controllers/controller_base'
+require_relative '../controllers/router'
+require_relative '../controllers/show_exceptions'
 
 class StatusesController < ControllerBase
   def index

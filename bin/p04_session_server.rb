@@ -1,5 +1,5 @@
 require 'rack'
-require_relative '../lib/controller_base'
+require_relative '../controllers/controller_base'
 
 class MyController < ControllerBase
   def go
